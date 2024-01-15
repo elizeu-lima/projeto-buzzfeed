@@ -75,3 +75,47 @@
   justify-content: center;
   align-items: center;
 }
+
+@media screen and (max-width: 600px) {
+  .quizz__container {
+    width: 90%;
+  }
+
+  .quizz_logo > h3 {
+    margin-top: 10px;
+    font-size: 16px;
+  }
+
+  .quizz_questions {
+    height: 150px;
+    font-size: 16px;
+  }
+
+  .btn-option {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .quizz__container {
+    width: 90%;
+  }
+
+  .quizz_logo > h3 {
+    margin-top: 10px;
+    font-size: 16px;
+  }
+
+  .quizz_questions {
+    height: 150px;
+    font-size: 16px;
+  }
+
+  .btn-option {
+    width: 100%;
+  }
+
+  .quizz_results {
+    height: auto;
+  }
+}
