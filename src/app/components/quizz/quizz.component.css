@@ -103,6 +103,20 @@
   }
 }
 
+.quizz_questions > h3 {
+  margin: 0; /* Remove margens padrão do h3 */
+}
+
+@media screen and (max-width: 768px) {
+  .quizz_questions {
+    font-size: 16px; /* Diminui a fonte em telas menores */
+  }
+
+  .quizz_questions > h3 {
+    font-size: 16px; /* Diminui a fonte em telas menores */
+  }
+}
+
 @media screen and (max-width: 768px) {
   .quizz__container {
     width: 90%;
