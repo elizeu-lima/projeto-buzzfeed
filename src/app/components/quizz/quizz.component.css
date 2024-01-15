@@ -82,17 +82,18 @@
   }
 
   .quizz_logo > h3 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    .quizz_logo > h3 {
+      font-size: 14px;
+    }
+
     margin-top: 10px;
     font-size: 16px;
   }
 
   .quizz_questions {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    .quizz_questions {
+      font-size: 16px; /* Diminui a fonte em telas menores */
+    }
     height: 150px;
     font-size: 16px;
   }
