@@ -79,6 +79,19 @@
 }
 
 @media screen and (max-width: 600px){
+ .quizz__container{
+  margin-left: 42px;
+ }
+}
+
+@media screen and (max-width: 600px){
+  .quizz_logo{
+    margin-right: 35px;
+  }
+}
+
+
+@media screen and (max-width: 600px){
 .quizz_options{
   width: 310px;
 
